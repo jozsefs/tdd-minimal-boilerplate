@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run bundle & node_modules\\.bin\\mocha -u tdd -R spec tests/*.js",
+    "test": "npm run bundle && node_modules\\.bin\\mocha -u tdd -R spec tests/*.js",
     "coverage": "npm run bundle && node_modules\\.bin\\istanbul cover node_modules/mocha/bin/_mocha -- -u tdd -R spec tests/*.js",
     "jshint": "node_modules\\.bin\\jshint libs tests",
     "jscs": "node_modules\\.bin\\jscs -c .jscsrc libs tests",
     "jsdoc": "node_modules\\.bin\\jsdoc -c .jsdocrc libs",
-    "bundle": "node_modules\\.bin\\browserify -o bundle.js tests.js"
+    "bundle": "node_modules\\.bin\\browserify -o bundle.js tests.js",
+	"everything": "npm run jshint && npm run jscs && npm run coverage && npm run jsdoc"
   },
   "author": "",
   "license": "BSD-2-Clause",

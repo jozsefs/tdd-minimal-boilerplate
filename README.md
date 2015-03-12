@@ -2,6 +2,10 @@ First install the packages
 
     npm install
 
+Run everything (jshint -> jscs -> test + coverage -> jsdoc)
+
+    npm run everything
+
 Run tests (also creates a bundle before testing):
 
     npm test
@@ -20,7 +24,7 @@ Run jshint:
 
 Run jscs (code style validation):
 
-    npm run jshint
+    npm run jscs
     
 (Optional) Create bundle to be used with the *`tests/index.html`*:
 
