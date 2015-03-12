@@ -3,3 +3,4 @@ coverage
 doc
 .idea
 bundle.js
+npm-debug.log
