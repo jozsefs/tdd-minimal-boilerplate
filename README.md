@@ -1,3 +1,7 @@
+First install the packages
+
+    npm install
+
 Run tests (also creates a bundle before testing):
 
     npm run test
