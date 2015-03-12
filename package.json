@@ -15,7 +15,7 @@
   "author": "",
   "license": "BSD-2-Clause",
   "devDependencies": {
-	"async": "~0.9.0",
+    "async": "~0.9.0",
     "mocha": "~1.21.4",
     "istanbul": "~0.3.2",
     "chai": "~1.9.1",
@@ -23,7 +23,6 @@
     "jscs": "~1.6.0",
     "browserify": "~5.11.0",
     "jsdoc": "^3.3.0-alpha9",
-    "require-dir": "~0.1.0",
     "sinon": "~1.10.3",
     "underscore": "~1.7.0"
   }
