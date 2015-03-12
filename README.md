@@ -2,9 +2,9 @@ First install the packages
 
     npm install
 
-Run everything (jshint -> jscs -> test + coverage -> jsdoc)
+Run all commands (jshint -> jscs -> test + coverage -> jsdoc)
 
-    npm run everything
+    npm run all
 
 Run tests (also creates a bundle before testing):
 

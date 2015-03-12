@@ -9,12 +9,13 @@
     "jshint": "node_modules/.bin/jshint libs tests",
     "jscs": "node_modules/.bin/jscs -c .jscsrc libs tests",
 	"jsdoc": "node_modules/.bin/jsdoc -c .jsdocrc libs",
-	"bundle": "node_modules/.bin/browserify -o bundle.js tests.js",
-	"everything": "npm run jshint && npm run jscs && npm run coverage && npm run jsdoc"
+	"bundle": "node_modules/.bin/browserify -o bundle.js all_test_file.js",
+	"all": "npm run jshint && npm run jscs && npm run coverage && npm run jsdoc"
   },
   "author": "",
   "license": "BSD-2-Clause",
   "devDependencies": {
+	"async": "~0.9.0",
     "mocha": "~1.21.4",
     "istanbul": "~0.3.0",
     "chai": "~1.9.1",

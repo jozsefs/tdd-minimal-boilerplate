@@ -1,4 +1,5 @@
 node_modules
+all_test_file.js
 coverage
 doc
 .idea
